@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;500;700&display=swap');
+body{
+    font-family: 'IBM Plex Mono', monospace;
+}
+.banner{
+    height: 1000px;
+    display: flex;
+}
+.banner video{
+    height: 100%;
+    object-fit: cover;
+}
+.ban-content h1{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 100px;
+}
+.ban-content{
+    transition-duration: 1s;
+    height: 0;
+}
+.banner:hover .ban-content{
+    height: 40%;
+}
+#sec-1{
+    background-color: rgb(0, 0, 0);
+}
+#sec-2{
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 100px 0;
+}
+#sec-3 h1{
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 100px 0;
+}
+.content-sec-3 p{
+    margin-left: 100px;
+}
+#sec-4{
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 150px 0;
+}
+#sec-5{
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 150px 0;
+}
+.content-sec-4 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: aliceblue;
+    transition: transform 2s;
+    margin-left: 50px;
+}
+.content-sec-4 a:hover {
+    transition: 0.2s;
+    color: rgb(165, 246, 142);
+    text-decoration: none;
+    transform: scale(1.5); 
+}
+.content-sec-4-2 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: aliceblue;
+    transition: transform 2s;
+    margin-left: 50px;
+}
+.content-sec-4-2 a:hover {
+    transition: 0.2s;
+    color: rgb(165, 246, 142);
+    text-decoration: none;
+    transform: scale(1.5); 
+}
+#sec-6{
+    background-color: rgba(206, 206, 206, 0.671);
+}
+/* #sec-6 img{
+    height: 100%;
+    width: 100%;
+} */
+.content-sec-6 h1{
+    font-size: 150px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 100;
+}
+.content-sec-6 a{
+    font-size: 28px;
+    color: black;
+    transition: transform .2s; /* Animation */
+}
+.content-sec-6 a:hover{
+    text-decoration: none;
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+footer{
+    background-color: black;
+}
+.conta a{
+    font-size: 25px;
+    color: white;
+}
+.conta a:hover{
+    text-decoration: none;
+    color: rgba(255, 174, 0, 0.86);
+}
+.conta-1 h4{
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 40px;
+}
